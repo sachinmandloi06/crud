@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://crud-sivb.onrender.com',
+        target: 'https://crud-backend-qjhm.onrender.com',
         changeOrigin: true,
         secure: false,
       }
